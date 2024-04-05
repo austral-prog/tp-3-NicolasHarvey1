@@ -4,7 +4,7 @@ def slice_simple():
     # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
     print(texto[0:3].lower())
     print(texto[2:5].lower())
-    print(texto[0:4].lower()+texto[4:7].lower())
+    print(texto[0:4].lower()+texto[4:len(texto)].lower())
 
 
 # Para verificar este ejercicio ejecutar el comando
