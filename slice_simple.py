@@ -7,3 +7,5 @@ def slice_simple():
 	print((texto[0:4]+texto[len(texto)-3:len(texto)]).lower())
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
+
+
