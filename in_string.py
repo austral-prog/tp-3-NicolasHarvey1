@@ -1,17 +1,24 @@
 def check_vowels():
     # Código a implementar utilizando input.
     nombre = input("escriba su nombre: ")
-    vocal_a = "a"
-    vocal_e = "e"
-    vocal_i = "i"
-    vocal_o = "o"
-    vocal_u = "u"
+    a = "a"
+    e = "e"
+    i = "i"
+    o = "o"
+    u = "u"
+    mA = "A"
+    mE = "E"
+    mI = "I"
+    mO = "O"
+    mU = "U"
 
-    print("Contiene a: ",vocal_a in nombre)
-    print("Contiene e: ",vocal_e in nombre)
-    print("Contiene i: ",vocal_i in nombre)
-    print("Contiene o: ",vocal_o in nombre)
-    print("Contiene u: ",vocal_u in nombre)
+
+
+    print("Contiene a:",a in nombre or mA in nombre)
+    print("Contiene e:",e in nombre or mE in nombre)
+    print("Contiene i:",i in nombre or mI in nombre)
+    print("Contiene o:",o in nombre or mO in nombre)
+    print("Contiene u:",u in nombre or mU in nombre)
 
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
